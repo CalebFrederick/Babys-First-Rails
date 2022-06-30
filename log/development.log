@@ -1,0 +1,46 @@
+  [1m[35m (158.6ms)[0m  [1m[35mCREATE DATABASE "babys_first_rails_development" ENCODING = 'unicode'[0m
+  [1m[35m (58.5ms)[0m  [1m[35mCREATE DATABASE "babys_first_rails_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-06-29 22:35:13 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moose/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moose/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.5ms | Allocations: 645)
+Completed 200 OK in 23ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4885)
+
+
+Started GET "/wlecome_path" for ::1 at 2022-06-29 22:37:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/wlecome_path"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-06-29 22:37:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/wlecome_path" for ::1 at 2022-06-29 22:42:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/wlecome_path"):
+  
+Started GET "/wlecome_path" for ::1 at 2022-06-29 22:42:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/wlecome_path"):
+  
+Started GET "/" for ::1 at 2022-06-29 22:43:32 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moose/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moose/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 537)
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3546)
+
+
+Started GET "/welcome" for ::1 at 2022-06-29 22:43:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome_path" for ::1 at 2022-06-29 22:43:52 -0400
+Processing by WelcomesController#hello_method as HTML
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 319)
+
+
+Started GET "/about_path" for ::1 at 2022-06-29 22:47:25 -0400
+Processing by WelcomesController#about_method as HTML
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 2354)
+
+
